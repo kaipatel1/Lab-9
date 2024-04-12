@@ -1,3 +1,4 @@
+#Kai Patel
 def encode(password):
     result = ""
     for i in password:
@@ -9,6 +10,7 @@ def main():
     while True:
         print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
         selection = input("Please enter an option: ")
+        e = 1
         if selection == "1":
             password = encode(input("Please enter an option: "))
             print("Your password has been encoded and stored!")
